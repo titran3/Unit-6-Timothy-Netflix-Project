@@ -1,0 +1,258 @@
+    .login {
+        background-image:         linear-gradient(
+              rgba(0, 0, 0, 0.7), 
+              rgba(0, 0, 0, 0.7)
+            ),url(https://www.whats-on-netflix.com/wp-content/uploads/2021/08/netflix-library-photo-scaled.jpg);
+        background-size:cover;
+
+        font-family: 'Inter';
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    .column, img{
+      margin-top: 8px;
+      vertical-align: middle;
+      width:100px;
+    }
+    .watching{
+        margin:auto;
+        line-height: 1000px;
+        color:white;
+        font-size:70px;
+        text-align:center;
+        font-weight:400;
+    }
+    .who {
+        display:none;
+      margin-top: 50px;
+      background-color: #1d1d1d;
+      height: 1000px;
+      position:relative;
+    }
+    input:active{
+        text-decoration:none;
+        border:none;
+    }
+    input{
+        text-decoration:none;
+        border:none;
+        color:white;
+    }
+    .text{
+        top:150px;
+        font-size:50px;
+        left: 10%;
+        position:relative;
+        text-align:left;
+        color:white;
+    }
+.manage{   
+      position:absolute;
+	font-size:25px;
+      margin: 20px auto;
+      display: flex;
+          top: 95%; 
+    color:grey;
+    padding: 0.5em 1.5em;
+    border: 1px solid grey;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    cursor:pointer;
+    transition: all 200ms;
+    }
+.manage:hover{
+	color:white;
+    border: 1px solid white;
+}
+
+    .user-profiles {
+      position:absolute;
+
+      margin: 20px auto;
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+          top: 70%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    }
+
+    .user-profile {
+      margin: 20px;
+      width: 300px;
+      height: 300px;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+    }
+
+    .user-profile img {
+      width: 100%;
+      transition: all 500ms;
+    }
+    .user-profile img:hover {
+      width: 100%;
+        box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+      transform: translateY(-10px);
+    }
+
+    .sign{
+        margin:auto;
+        align-items:center;
+        border-radius:25px;
+        text-align:center;
+        background:rgba(0, 0, 0, 0.5) ;
+        width:800px;
+        height:1100px;
+    }
+    input::placeholder{
+        color:rgba(255,255,225,0.4);
+        font-size:1rem;
+    }
+    .url {
+        border-radius: 5px;
+        background-color:rgba(60,60,60,1);
+        width: 80%;
+        padding: 30px 20px;
+
+        transform:translateY(-105px);
+        box-sizing: border-box;
+        text-align: left;
+        font-family: 'Inter';
+        font-weight:400;
+    }
+    .genre {
+        border-radius: 5px;
+        background-color:rgba(60,60,60,1);
+        width: 80%;
+        padding: 30px 20px;
+        margin: 140px 0;
+        box-sizing: border-box;
+        text-align: left;
+        font-family: 'Inter';
+        font-weight:400;
+    }
+    .submit {
+        position:relative;
+        color: white;
+         font-family: 'Inter';
+        font-weight:400;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        background-color:red;
+          padding: 35px 20px;
+        box-sizing: border-box;
+        border-radius:10px;
+        border:none;
+        margin: -240px;
+        cursor:pointer;
+        width: 80%;
+    }
+    .suggest {
+        position:relative;
+        color: white;
+         font-family: 'Inter';
+        font-weight:400;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        background-color:red;
+          padding: 35px 20px;
+        box-sizing: border-box;
+        border-radius:10px;
+        border:none;
+        margin: 50px 0 -200px;
+        cursor:pointer;
+        width: 80%;
+    }
+    *:focus {
+        outline: none;
+    }
+    .logo{
+        position:relative;
+        left:2% !important;
+        width:10%;
+    }
+    input[type=checkbox]{
+        width: 25px;
+        height: 18px;
+        border-radius: 5px;
+    }
+    .remember{
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 80px;
+        position:relative;
+        left:72px;
+        color:gray;
+        font-family: 'Inter';
+    }
+    .help {
+        width:200px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: -22px;
+        position: relative;
+        text-decoration:none;
+        left: 720px;
+        margin-left:-200px;
+        color: gray;
+        font-family: 'Inter';
+        font-size: 16px; 
+    }
+
+    span{
+    color:white;
+    }
+    .watching{
+    background-color:#1d1d1d;
+        height:1200px;
+    }
+    .blue {
+      text-decoration:none;
+      color: royalblue;
+    }
+    a{
+    color:white;
+    text-decoration:none;
+    }
+    a:hover{
+    text-decoration:underline;
+    }
+    .blue:hover{
+    text-decoration:underline;
+    }
+    .help:hover{
+    text-decoration:underline;
+    }
+    .captcha{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 20px;
+        text-align:left;
+        position:relative;
+        left:-73px;
+        width:500px;
+        font-size:18px;
+        color:gray;
+        display: inline-block;
+        font-family: 'Inter';
+    }
+    .textt{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 100px;
+        position:relative;
+        left:79px;
+        font-size:22px;
+        color:gray;
+        font-family: 'Inter';
+    }
